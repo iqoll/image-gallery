@@ -10,7 +10,7 @@
   <!-- Global Container -->
   <div class="flex justify-center items-center min-h-screen bg-cyan-50">
     <!-- Card Container -->
-    <div class="bg-white p-6 m-3 space-x-10 shadow-2xl rounded-3xl md:p-40">
+    <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
       <!-- Menu Container -->
       <div class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end">
         <!-- Menu Items -->
@@ -48,6 +48,25 @@
 
         <!-- Upload Button -->
         <button class="py-3 px-14 text-lg font-normal text-white bg-black border border-black rounded-md shadow-2xl duration-200 hover:bg-white hover:text-black">Upload</button>
+      </div>
+
+      <!-- Gallery Conatainer -->
+      <div class="grid gap-4 md:grid-cols-3">
+        <!-- Image 1 -->
+        <div class="relative group">
+          <img src="images/image1.jpg" alt="" class="w-72">
+          <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+            <div class="flex justify-between w-full">
+              <div class="font-normal">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs">245 likes - 35 Shares</p>
+              </div>
+              <div class="flex items-center">
+                <img src="images/bookmark.svg" alt="Bookmark">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
